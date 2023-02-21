@@ -1,0 +1,58 @@
+body {
+    background-color:rgb(241, 241, 211);
+}
+
+#h1 {
+    font-family: fantasy;
+}
+
+div.ex1 {
+    margin: 20px;
+} 
+
+.them {
+    font-size: 30px;
+    color: rgb(219, 124, 9);
+    margin: 20px;
+}
+
+.firstTabl {
+    text-align: left;
+    color: rgb(7, 50, 241);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.secTabl {
+    text-align: left;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#lst {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+
+}
+
+#ls {
+    font-size: 17px;
+    text-align: left;
+}
+
+#tabl2 {
+    background-color: rgb(247, 247, 247);
+}
+
+#tabl3 {
+    text-align: left;
+    color: rgb(156, 4, 4);
+    background-color: rgb(117, 116, 116);
+    font-size: 30px;    
+}
+
+.font3 {
+    text-align: left;
+    font-size: 20px; 
+}

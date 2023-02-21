@@ -2,68 +2,88 @@
 <html>
 <head>
     <title>Лаб робота 1</title>
+    <link rel="stylesheet" href="1.css">
     <meta charset="UTF-8">
-    <style> 
-        div.ex1 {
-            margin: 20px;
-        } 
-        
-    </style>
 </head>
-<body style="background-color:rgb(169, 204, 233);">
+<body>
     
-    <h1>Лабораторна робота 1</h1>
+    <h1 id ="h1">Лабораторна робота 1</h1>
+    <h3 class = "them">1.Таблиця, її атрибути</h3>
     <div class="ex1">
-    <h3>1.Таблиця, її атрибути</h3>
-    <p>
-    <table style = "width:40%" border="1" cellspacing="0.1" cellpadding="7">
+    <table style = "width:40%" border="1" cellspacing="0.1" cellpadding="2">
         <tr>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
+            <th class="firstTabl">1</th>
+            <th class="firstTabl">2</th>
+            <th class="firstTabl">3</th>
         </tr>
         <tr>
-            <th>4</th>
-            <th>5</th>
-            <th>6</th>
+            <th class="firstTabl">4</th>
+            <th class="firstTabl">5</th>
+            <th class="firstTabl">6</th>
         </tr>
     </table>
-    </p>
     <p>
-    <table style = "width:60%" border="1" cellspacing="0.1" cellpadding="7" align="center">
+    <table style = "width:45%" border="1" cellspacing="0.1" cellpadding="12" align="center">
         <tr>
-            <th align="right" style="background-color: rgb(196, 204, 176);">1</th>
-            <th style="background-color:rgb(106, 194, 106)" >2</th>
-            <th style="background-color:rgb(106, 194, 106)">3</th>
+            <th align = "right" style="background-color: rgb(235, 255, 186);">1</th>
+            <th style = "background-color:rgb(106, 194, 106)" >2</th>
+            <th style = "background-color:rgb(106, 194, 106)">3</th>
         </tr>
         <tr>
-            <th>4</th>
-            <th>5</th>
-            <th>6</th>
+            <th class = "secTabl">4</th>
+            <th class = "secTabl">5</th>
+            <th class = "secTabl">6</th>
         </tr>
     </table>
     </p>
     </div>
 
-    <hr size="1" width="99%" color="blue">
+    <hr size="2" width="99%" color="blue">
 
-    <h1>2.Ієрархічне форматування<h1>
+    <h1 class="them">2.Ієрархічне форматування<h1>
     <p></p>
     <p>
-    <table style = "width:40%" border="1" cellspacing="0.1" cellpadding="10">
+    <table id ="tabl2" style = "width:50%" border="1" cellspacing="0.1" cellpadding="6">
         <tr>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
+            <th class="font3">1</th>
+            <th class="font3" style="width:40%"> 2</th>
+            <th>
+                <p id = "lst"><em>Список рядків:</em></p>
+                <ol id = "ls">
+                    <li>перший рядок</li>
+                    <li>другий рядок</li>
+                    <li>третій рядок</li>
+                    <li>останній...</li>
+                </ol>
+
+            </th>
         </tr>
         <tr>
-            <th>4</th>
-            <th>5</th>
-            <th>6</th>
+            <th class="font3">4</th>
+            <th class="font3">5</th>
+            <th style="width:50%">
+                <table id = "tabl3" style =  "width:100%" border="1" cellspacing="0.1" cellpadding="11">
+                    <tr>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <th>8</th>
+                        <th>9</th>
+                    </tr>
+                </table>
+            </th>
         </tr>
     </table>
     </p>
 
-    <hr size="1" width="99%" color="blue">
+    <hr size="2" width="99%" color="blue">
 </body>
 </html>
